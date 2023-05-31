@@ -1,0 +1,51 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "mocha": true
+    },
+    "extends": "airbnb-base",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-unused-vars":"warn",
+        "no-console":"error",
+        "valid-jsdoc":"error",
+        "arrow-body-style":"warn",
+        "block-scoped-var":"error",
+        "brace-style":"warn",
+        "camelcase":"error",
+        "complexity":"warn",
+        "default-case":"warn",
+        "eol-last":"error",
+        "global-require":"warn",
+        "max-depth":"warn",
+        "spaced-comment":"warn",
+        "linebreak-style":"warn",
+        "no-await-in-loop":"off",
+        "no-else-return":"error",
+        "radix":"error",
+        "no-param-reassign":"warn",
+        "prefer-template":"error",
+        "no-underscore-dangle": "off",
+        "sort-imports": "error",
+        "max-len": "off",
+        "no-self-assign": "warn",
+        "no-return-assign": "warn",
+        "consistent-return": "warn",
+        "eqeqeq": "warn",
+        "no-use-before-define": "warn",
+        "vars-on-top": "off",
+        "import/order": "off"
+    },
+    "plugins": [
+        "eslint-plugin-import",
+        "jsdoc"
+      ]
+}
+
+

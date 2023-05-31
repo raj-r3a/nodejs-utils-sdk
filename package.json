@@ -1,0 +1,43 @@
+{
+  "name": "nodejs-utils-sdk",
+  "version": "1.0.0",
+  "description": "Nodejs utils sdk which will be having all the logging, error handling, server, uuid etc library functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raj-r3a/nodejs-utils-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raj-r3a/nodejs-utils-sdk/issues"
+  },
+  "homepage": "https://github.com/raj-r3a/nodejs-utils-sdk#readme",
+  "dependencies": {
+    "async": "^3.2.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-joi-validation": "^5.0.1",
+    "sequelize": "^6.31.1",
+    "uuid": "^9.0.0",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^45.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^9.0.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.8.3"
+  }
+}
